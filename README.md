@@ -2,6 +2,8 @@
 
 前后端分离示例项目的后端，使用Spring boot + mybatis.
 
+原项目地址：[https://github.com/lenve/VBlog.git](https://github.com/lenve/VBlog.git)
+
 工程中包含了编译后的前端资源，用于演示。
 
 前端工程在myblogserver-ui项目单独开发。
