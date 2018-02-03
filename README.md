@@ -10,7 +10,7 @@
 
 前后端的开发、编译和部署是彻底分离的。
 
-## 开发调试
+## 开发测试
 
 1. 准备mysql数据库，可以使用容器启动，如：
 
@@ -23,9 +23,19 @@ docker run -d -p 3306:3306 --name mysql -e MYSQL_ROOT_PASSWORD=123456 mysql
 
 导入`src/main/resources/db/vueblog-init.sql`.
 
-3. 在IDEA中运行
+3. 运行
 
-在IDEA中打开项目并运行，访问`http://localhost:8081/index.html`.
+克隆项目到本地：
+
+```bash
+git clone https://github.com/ijunjie/myblogserver.git
+```
+
+在IDEA中打开项目并运行，也可以使用maven编译运行。
+
+
+访问`http://localhost:8081/index.html`.
+
 
 ## 问题
 
