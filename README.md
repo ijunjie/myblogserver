@@ -33,6 +33,16 @@ git clone https://github.com/ijunjie/myblogserver.git
 
 在IDEA中打开项目并运行，也可以使用maven编译运行。
 
+运行时设置环境变量：
+
+- `MYSQL_SERVICE_HOST` 默认为127.0.0.1
+- `MYSQL_SERVICE_PORT` 默认为3306
+- `MYSQL_SERVICE_USER` 默认为root
+- `MYSQL_SERVICE_PASSWORD` 默认为123456
+
+
+也可以直接修改`application-mysql.properties`
+
 
 访问`http://localhost:8081/index.html`.
 
